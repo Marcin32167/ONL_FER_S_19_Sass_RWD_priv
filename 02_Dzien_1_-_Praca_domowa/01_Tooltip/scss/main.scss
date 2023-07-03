@@ -1,0 +1,33 @@
+@mixin setTooltip($text, $backgroundColor) {
+  position: relative;
+  overflow: visible;
+
+  &:hover::before {
+    content: $text;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: $backgroundColor;
+    color: white;
+    border-radius: 3px;
+    white-space: nowrap;
+    font-size: 14px;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
+.list {
+  li {
+    @include setTooltip("To jest tooltip", #ff0000);
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+}
+
