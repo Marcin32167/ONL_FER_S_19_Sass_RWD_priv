@@ -19,7 +19,6 @@
   }
 }
 
-
 .list {
   li {
     @include setTooltip("To jest tooltip", #ff0000);
@@ -30,4 +29,3 @@
     cursor: pointer;
   }
 }
-
