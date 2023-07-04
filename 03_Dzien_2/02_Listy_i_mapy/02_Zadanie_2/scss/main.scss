@@ -1,0 +1,28 @@
+@use "sass:map";
+
+
+
+$colors: (
+        page-background: #f2f2f2,
+        text-color: #333333,
+        footer-background: #ffcc00,
+        section-background: #99ccff,
+        header-background: #ff6699
+);
+
+body {
+  background-color: map-get($colors, page-background);
+  color: map-get($colors, text-color);
+}
+
+header {
+  background-color: map-get($colors, header-background);
+}
+
+section {
+  background-color: map-get($colors, section-background);
+}
+
+footer {
+  background-color: map-get($colors, footer-background);
+}
