@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "2.0.0",
-  "source": "03_Dzien_2/01_Dziedziczenie/01_Placeholdery/index.html",
+  "source": "03_Dzien_2/02_Listy_i_mapy/01_Zadanie_1/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
