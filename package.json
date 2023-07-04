@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "2.0.0",
-  "source": "03_Dzien_2/03_Logika/01_Zadanie_1/index.html",
+  "source": "03_Dzien_2/03_Logika/02_Zadanie_2/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
