@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "2.0.0",
-  "source": "05_Dzien_3/02_Mobile_first/01_Zadanie_1/index.html",
+  "source": "05_Dzien_3/03_Grid/01_Zadanie_1/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
