@@ -1,0 +1,14 @@
+$background-color-yellow: yellow;
+$background-color-blue: blue;
+
+@media (max-width: 420px) {
+  body {
+    background-color: $background-color-yellow;
+  }
+}
+
+@media (min-width: 421px) {
+  body {
+    background-color: $background-color-blue;
+  }
+}

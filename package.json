@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "2.0.0",
-  "source": "04_Dzien_2_-_Praca_domowa/02_Jednostki/index.html",
+  "source": "05_Dzien_3/01_Media_Queries/01_Zadanie_1/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
