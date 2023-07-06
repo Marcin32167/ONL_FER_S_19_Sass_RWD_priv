@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "2.0.0",
-  "source": "05_Dzien_3/03_Grid/02_Zadanie_2/index.html",
+  "source": "07_Dzien_4/01_Elastyczne_media/01_Zadanie_1/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
