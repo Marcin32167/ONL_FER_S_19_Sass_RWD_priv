@@ -7,6 +7,47 @@ body {
   background: linear-gradient(180deg, rgba(125, 202, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgb(255, 255, 194) 54%, rgb(62, 192, 101) 56%, rgba(112, 242, 35, 1) 100%);
 }
 
+@keyframes movePaw {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.hand-left {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  position: relative;
+  animation: movePaw 2s infinite;
+}
+
+@keyframes blink {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.eye-right {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  animation: blink 3s infinite;
+  transform-origin: bottom center;
+}
+
 #bear {
   text-align: center;
   margin: 50px auto;
