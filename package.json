@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "2.0.0",
-  "source": "07_Dzien_4/02_Animacje/02_Zadania/index.html",
+  "source": "07_Dzien_4/02_Animacje/03_Zombie/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
